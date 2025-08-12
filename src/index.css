@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); backdrop-filter: blur(8px); }
+.glow { box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 12px 30px rgba(0,0,0,0.35); }
+.fade-in { animation: fade .45s ease-out both; }
+@keyframes fade { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+.sparkline canvas { height: 48px !important; }
+.kpi { transition: transform .12s ease; }
+.kpi:hover { transform: translateY(-2px); }
+.table-auto th, .table-auto td { border-bottom: 1px solid rgba(255,255,255,0.08); }
+.badge { border: 1px solid rgba(255,255,255,0.08); }
