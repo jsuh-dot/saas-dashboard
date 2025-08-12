@@ -11,8 +11,8 @@ function useCSVData(){
     (async ()=>{
       try {
         const [actuals, budget] = await Promise.all([
-          fetch('/public/actuals.csv').then(r=>r.text()),
-          fetch('/public/budget.csv').then(r=>r.text())
+          fetch('/actuals.csv').then(r=>r.text()),
+          fetch('/budget.csv').then(r=>r.text())
         ])
         const parse = (csv)=> new Promise(res=> Papa.parse(csv, { header:true, complete: (r)=> res(r.data.filter(r=>Object.values(r).some(v=>String(v).trim()!==''))) }))
         const [aRows, bRows] = await Promise.all([parse(actuals), parse(budget)])
