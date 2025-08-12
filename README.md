@@ -5,10 +5,10 @@ A production-ready SaaS finance dashboard that merges Actuals and Budget CSVs, c
 ## Open in StackBlitz
 Click the badge below once you've pushed this repo to GitHub (replace `YOUR_GITHUB_USERNAME` if you rename the repo):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/YOUR_GITHUB_USERNAME/saas-finance-dashboard?file=index.html)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/jsuh-dot/saas-dashboard?file=index.html)
 
 ## Deploy to Netlify (optional)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/YOUR_GITHUB_USERNAME/saas-finance-dashboard)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jsuh-dot/saas-dashboard)
 
 ---
 
